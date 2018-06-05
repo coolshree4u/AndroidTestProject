@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InternalStorageActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/etLoadData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Enter your Data" />
+
+        <TextView
+            android:id="@+id/tvShowData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <Button
+            android:id="@+id/btnLoadPref"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Load Pref" />
+
+        <Button
+            android:id="@+id/btnSavePref"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save Pref"
+            />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

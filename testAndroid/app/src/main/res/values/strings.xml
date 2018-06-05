@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">testAndroid</string>
+    <string name="action_settings">Settings</string>
+    <string name="welcome_message">Hello Guys</string>
+    <string name="btnPressMe">Press Me</string>
+    <string name="editTextName">Text To Display</string>
+    <string name="title_activity_list">ListActivity</string>
+    <string name="menu_icon">My App Icon</string>
+    <string name="title_activity_life_cycle_demo">ActivityLifeCycleDemo</string>
+    <string name="title_activity_view_groups_demo">ViewGroupsDemo</string>
+    <string name="btn_sign_in">Sign In</string>
+    <string name="btn_sign_up">Sign Up</string>
+    <string name="btn_image_view">Change Image</string>
+
+</resources>
